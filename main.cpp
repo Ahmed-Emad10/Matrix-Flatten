@@ -25,6 +25,7 @@ void matrixflatten(vector<vector<vector<double>>> matrix3d)
             }
         }
     }
+    cout<<"Flattened matrix:"<<endl;
     for (y = 0; y < q; y++)
     {
         cout<<flattened[y]<<" ";
@@ -45,16 +46,16 @@ int main()
     }
     vector<vector<vector<double>>> matrix3d;
     matrix3d.resize(n, vector<vector<double>>(m, vector<double>(p)));
+
     cout<<"Please, Enter the values of the matrix :"<<endl;
-    double value;
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
         {
             for (int k = 0; k < p; k++)
             {
-                cin>>value;
-                matrix3d[i][j][k]=value; 
+                cout<<"The value of cell("<<i<<","<<j<<","<<k<<"):"<<endl;
+                cin>>matrix3d[i][j][k];
             }
         }
     }
