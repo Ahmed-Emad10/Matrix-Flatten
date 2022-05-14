@@ -25,7 +25,7 @@ main
    <hr>
 
    <h2 align='center'>Errors</h2>
-   <img width=70% src="screenshots/e1.PNG" alt=""></a>
+   <img width=70% src="screenshots/e1.png" alt=""></a>
 </div>
 
 
